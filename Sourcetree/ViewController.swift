@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
 
+    // master
 
     @IBAction func buttonAction(_ sender: Any) {
         let labelArray = Labels.shared
