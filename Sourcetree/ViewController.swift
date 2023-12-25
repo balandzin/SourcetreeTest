@@ -19,6 +19,9 @@ class ViewController: UIViewController {
 
 
     @IBAction func buttonAction(_ sender: Any) {
+        let labelArray = Labels.shared
+        
+        label.text = labelArray.labels[Int.random(in: 0...1)]
     }
     
     // Commit from merged branches
