@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dumbbell.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Tpd-ZP-H4Z">
-                                <rect key="frame" x="76" y="362" width="240" height="128"/>
+                                <rect key="frame" x="46" y="337.33333333333331" width="301" height="177"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
