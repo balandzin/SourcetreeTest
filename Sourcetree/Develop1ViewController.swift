@@ -18,4 +18,5 @@ class Develop1ViewController: UIViewController {
     // Some code from develop1 branch
     
     // some code from
+    // some code from master branch
 }
