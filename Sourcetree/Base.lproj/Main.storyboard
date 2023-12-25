@@ -20,6 +20,9 @@
                                 <rect key="frame" x="159" y="408.66666666666669" width="75" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <connections>
+                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hSB-9d-bH6"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1y-9d-DlY">
                                 <rect key="frame" x="16" y="319.66666666666669" width="361" height="41"/>
@@ -39,6 +42,9 @@
                             <constraint firstItem="wv2-uo-5n1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="igx-g2-eDy"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="N1y-9d-DlY" id="WY7-iO-Cdr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
